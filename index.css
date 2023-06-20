@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#main-photo {
+    width: 50px;
+    height: 100px;
+    object-fit: cover;
+}
+
+h1 {
+    color: blue;
+}
+
+a {
+    border: 1px solid red;
+    background-color: aquamarine;
+    border-radius: 4px;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+}
+
+.linkedin {
+    border: 1px palegreen;
+    background-color: transparent;
+    border-radius: 4px;
+}
