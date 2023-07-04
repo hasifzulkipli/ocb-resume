@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: aquamarine;
+}
+
 img {
     width: 200px;
     height: 400px;
@@ -9,8 +13,8 @@ img {
 }
 
 .avatar {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
 
@@ -24,15 +28,17 @@ h1 {
     color: blue;
 }
 
-a {
-    border: 1px solid red;
-    background-color: aquamarine;
+.menuitem {
     border-radius: 4px;
+    margin: 4px;
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+    padding: 2px;
+    cursor: pointer;
 }
 
-nav {
-    display: flex;
-    gap: 16px;
+.menuitem:hover {
+    background-color: #33ad14;
 }
 
 .linkedin {
